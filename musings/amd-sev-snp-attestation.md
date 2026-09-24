@@ -1,14 +1,7 @@
 # AMD SEV-SNP Attestation Details
 
-This document explains AMD SEV-SNP attestation and its implementation in
-Veraison. It follows the topics in the [Intel TDX attestation musing proposed
-in PR #41](https://github.com/veraison/docs/pull/41): concepts, report format,
-signing, provisioning, verification, and TCB lifecycle.
-
-Implementation details describe the `scheme/sevsnp` code in the services
-repository at [revision `9feadfec`][services].
-They describe that revision's behavior, including its limitations, rather than
-all capabilities of the AMD architecture.
+The purpose of this document is to explain AMD SEV-SNP attestation and how
+its attestation scheme is supported in Veraison.
 
 ## Introduction
 
